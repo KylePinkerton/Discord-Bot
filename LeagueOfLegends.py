@@ -241,7 +241,7 @@ class LeagueOfLegends:
          
 
  #               s = get_league_stats('shiphtur')
-  #              print("Printing indivudal stats: ")
+ #               print("Printing indivudal stats: ")
  #               print_individual_ranked_stats(s)
  #               l = return_individual_ranked_stats(s)
  #               print("Printing returned individual rankrd stats: ")
