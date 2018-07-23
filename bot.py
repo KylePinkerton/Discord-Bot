@@ -169,7 +169,7 @@ async def eight_ball(context):
     await bot.say(random.choice(possible_responses)+ ", young " + context.message.author.mention)
 
 #toxx
-@bot.command(description="Mentions toxic120.", brief="@Toxx", aliases=("coxx", "racist", "toxic420", "toxic120", "2197", "cody", "toxic", "zollis", "toxl", "voxl", "vollis", "twitchextension110characters"))
+@bot.command(description="Mentions toxic120.", brief="@Toxx", aliases=("toxic420", "toxic120", "2197", "cody", "toxic", "zollis", "toxl", "voxl", "vollis", "twitchextension110characters"))
 async def toxx():
     toxxid = "<@124320398383906817>"
     await bot.say("%s" %toxxid)
@@ -272,13 +272,13 @@ async def aetherflash():
     await bot.say("%s" %restinpiecesid)
 
 #jason
-@bot.command(description="Mentions Jason1234500.", brief="@Jason1234500", aliases=("berje", "fatherml", "fatherpoon", "jeloss", "jolonquiy", "berjelesason", "berjase", "bjorn", "riot10", "riotten", "jay", "jaysmr", "jebreskeberjelason", "jebreskeberjelesason"))
+@bot.command(description="Mentions Jason1234500.", brief="@Jason1234500", aliases=("berje", "fatherml", "jeloss", "jolonquiy", "berjelesason", "berjase", "bjorn", "riot10", "riotten", "jay", "jaysmr", "jebreskeberjelason", "jebreskeberjelesason"))
 async def jason():
     jaseid = "<@124319194735968259>"
     await bot.say("%s" %jaseid)
 
 #cody
-@bot.command(description="Mentions decodii69.", brief="@Decodii", aliases=("sode", "cole", "chode"))
+@bot.command(description="Mentions decodii69.", brief="@Decodii", aliases=("sode", "cole"))
 async def code():
     codyid = "<@119858392343773184>"
     await bot.say("%s" %codyid)
