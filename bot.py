@@ -283,8 +283,8 @@ async def code():
     codyid = "<@119858392343773184>"
     await bot.say("%s" %codyid)
 
-#bitchcrank
-@bot.command(description="Mentions xXxbitchcrankxXx.", brief="@Xzero", aliases=("zero", "small", "crank", "bitchcrank", "joey"))
+#xzero
+@bot.command(description="Mentions xzero.", brief="@Xzero", aliases=("zero", "small", "crank", "joey"))
 async def xzero():
     xzeroid = "<@166325720073764865>"
     await bot.say("%s" %xzeroid)
