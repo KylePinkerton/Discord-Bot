@@ -31,7 +31,7 @@ isrunning1 = False #for timer
 startup_time = 0 #for uptime, called in on_ready()
 
 
-#######################   MUSIC SHIT    ########################################
+#######################   MUSIC STUFF   ########################################
 class Main_Commands():
     def __init__(self, bot):
         self.bot=bot
